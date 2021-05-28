@@ -1,0 +1,844 @@
+
+id = 1
+ip = 4
+flag = 0
+ir = 336
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 260
+flag = 0
+ir = 336
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 8
+flag = 0
+ir = 3328
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 12
+flag = 0
+ir = 277
+ax1 = 10 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 16
+flag = 1
+ir = 2320
+ax1 = 10 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 20
+flag = 1
+ir = 2561
+ax1 = 10 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 24
+flag = 1
+ir = 784
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 28
+flag = 1
+ir = 337
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 264
+flag = 0
+ir = 3328
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 32
+flag = 1
+ir = 3584
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 268
+flag = 0
+ir = 277
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 1    out: 9
+
+id = 2
+ip = 272
+flag = 1
+ir = 2320
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 36
+flag = 1
+ir = 3088
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 276
+flag = 1
+ir = 2561
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 40
+flag = 1
+ir = 3840
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 280
+flag = 1
+ir = 784
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 4
+flag = 1
+ir = 2560
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 284
+flag = 1
+ir = 337
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 288
+flag = 1
+ir = 3584
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 8
+flag = 1
+ir = 3328
+ax1 = 9 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 2    out: 8
+
+id = 1
+ip = 12
+flag = 1
+ir = 277
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 292
+flag = 1
+ir = 3088
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 16
+flag = 1
+ir = 2320
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 296
+flag = 1
+ir = 3840
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 20
+flag = 1
+ir = 2561
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 260
+flag = 1
+ir = 2560
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 24
+flag = 1
+ir = 784
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 28
+flag = 1
+ir = 337
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 32
+flag = 1
+ir = 3584
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 264
+flag = 1
+ir = 3328
+ax1 = 8 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 1    out: 7
+
+id = 2
+ip = 268
+flag = 1
+ir = 277
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 36
+flag = 1
+ir = 3088
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 272
+flag = 1
+ir = 2320
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 40
+flag = 1
+ir = 3840
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 276
+flag = 1
+ir = 2561
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 4
+flag = 1
+ir = 2560
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 280
+flag = 1
+ir = 784
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 284
+flag = 1
+ir = 337
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 288
+flag = 1
+ir = 3584
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 8
+flag = 1
+ir = 3328
+ax1 = 7 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 2    out: 6
+
+id = 1
+ip = 12
+flag = 1
+ir = 277
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 292
+flag = 1
+ir = 3088
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 16
+flag = 1
+ir = 2320
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 20
+flag = 1
+ir = 2561
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 296
+flag = 1
+ir = 3840
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 24
+flag = 1
+ir = 784
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 260
+flag = 1
+ir = 2560
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 28
+flag = 1
+ir = 337
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 32
+flag = 1
+ir = 3584
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 264
+flag = 1
+ir = 3328
+ax1 = 6 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 1    out: 5
+
+id = 2
+ip = 268
+flag = 1
+ir = 277
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 36
+flag = 1
+ir = 3088
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 272
+flag = 1
+ir = 2320
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 40
+flag = 1
+ir = 3840
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 276
+flag = 1
+ir = 2561
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 4
+flag = 1
+ir = 2560
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 280
+flag = 1
+ir = 784
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 284
+flag = 1
+ir = 337
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 288
+flag = 1
+ir = 3584
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 8
+flag = 1
+ir = 3328
+ax1 = 5 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 2    out: 4
+
+id = 1
+ip = 12
+flag = 1
+ir = 277
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 292
+flag = 1
+ir = 3088
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 16
+flag = 1
+ir = 2320
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 296
+flag = 1
+ir = 3840
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 20
+flag = 1
+ir = 2561
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 260
+flag = 1
+ir = 2560
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 24
+flag = 1
+ir = 784
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 28
+flag = 1
+ir = 337
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 32
+flag = 1
+ir = 3584
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 264
+flag = 1
+ir = 3328
+ax1 = 4 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 1    out: 3
+
+id = 2
+ip = 268
+flag = 1
+ir = 277
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 36
+flag = 1
+ir = 3088
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 272
+flag = 1
+ir = 2320
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 40
+flag = 1
+ir = 3840
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 276
+flag = 1
+ir = 2561
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 4
+flag = 1
+ir = 2560
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 280
+flag = 1
+ir = 784
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 284
+flag = 1
+ir = 337
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 288
+flag = 1
+ir = 3584
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 8
+flag = 1
+ir = 3328
+ax1 = 3 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 2    out: 2
+
+id = 1
+ip = 12
+flag = 1
+ir = 277
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 292
+flag = 1
+ir = 3088
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 16
+flag = 1
+ir = 2320
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 296
+flag = 1
+ir = 3840
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 20
+flag = 1
+ir = 2561
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 260
+flag = 1
+ir = 2560
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 24
+flag = 1
+ir = 784
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 28
+flag = 1
+ir = 337
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 32
+flag = 1
+ir = 3584
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 264
+flag = 1
+ir = 3328
+ax1 = 2 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 1    out: 1
+
+id = 2
+ip = 268
+flag = 1
+ir = 277
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 36
+flag = 1
+ir = 3088
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 272
+flag = 1
+ir = 2320
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 40
+flag = 1
+ir = 3840
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 276
+flag = 1
+ir = 2561
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 4
+flag = 1
+ir = 2560
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 280
+flag = 1
+ir = 784
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 284
+flag = 1
+ir = 337
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 288
+flag = 1
+ir = 3584
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 8
+flag = 1
+ir = 3328
+ax1 = 1 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+id = 2    out: 0
+
+id = 1
+ip = 12
+flag = 1
+ir = 277
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 292
+flag = 1
+ir = 3088
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 16
+flag = 0
+ir = 2320
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 296
+flag = 1
+ir = 3840
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 44
+flag = 0
+ir = 2561
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 260
+flag = 1
+ir = 2560
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 48
+flag = 0
+ir = 3584
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 264
+flag = 1
+ir = 3328
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 1
+ip = 52
+flag = 0
+ir = 0
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 268
+flag = 1
+ir = 277
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 272
+flag = 0
+ir = 2320
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 300
+flag = 0
+ir = 2561
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 304
+flag = 0
+ir = 3584
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+id = 2
+ip = 308
+flag = 0
+ir = 0
+ax1 = 0 ax2 = 0 ax3 = 0 ax4 = 0
+ax5 = 16384 ax6 = 0 ax7 = 0 ax8 = 0
+
+codeSegment :
+22036480 218120192 18153472 152043520 167837724 51380225 22085632 234897408
+202375168 251658242 167837660 234897408 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+22036480 218120192 18153472 152043520 167837724 51380225 22085632 234897408
+202375168 251658242 167837660 234897408 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+dataSegment :
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
