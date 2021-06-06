@@ -1,42 +1,43 @@
-﻿#include <stdio.h>
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 #include <process.h>
 #include <windows.h>
 
-struct Byte {	//stored by bit
+typedef struct Byte {	//stored by bit
 	unsigned char bit0 : 1, bit1 : 1, bit2 : 1, bit3 : 1,
-		bit4 : 1, bit5 : 1, bit6 : 1, bit7 : 1;
-};
+				  bit4 : 1, bit5 : 1, bit6 : 1, bit7 : 1;
+}Byte;
 
-union Memory {
+typedef union Memory {
 	unsigned char data;
-	struct Byte b;
-};
+	Byte b;
+}Memory;
 
-union Register {
+typedef union Register {
 	short data;
 	struct {
-		struct Byte b0;
-		struct Byte b1;
+		Byte b0;
+		Byte b1;
 	}b;
-};
+}Register;
 
-char str[100000] = { 0 };
 const int START = 16384;			//dataSegment starts from 16384
-const int CODESTART[2] = { 0,256 };	//beginning of codeSegment of core 1 and core 2 
+const int CODESTART[2] = { 0,256 };	//beginning of codeSegment of core 1 and core 2
 
-union Memory memory[32 * 1024];		//32Kb Memory
-bool memLock[2][32 * 1024];			//Memory lock
-unsigned int PC[2];					//ProcessCounter
-union Register IR[2];				//InstructionRegister, stores only 2 bytes
-union Register ax[2][9];			//GeneralRegisters, store only 2 bytes. (don't use ax[][0]).
-int FR[2] = { 0 };					//FlagsRegister
+Memory memory[32 * 1024];		//32Kb Memory
+bool memLock[2][32 * 1024];		//Memory lock
+bool threadLock[2];				//Thread lock. Threads take turns to get tickets
+unsigned int PC[2];				//ProcessCounter
+Register IR[2];					//InstructionRegister, stores only 2 bytes
+Register ax[2][9];				//GeneralRegisters, store only 2 bytes (don't use ax[][0])
+int FR[2];						//FlagsRegister
 
 HANDLE hThread1, hThread2, IOMutex;
 
 void ReadToMemory(FILE* fp, int begin);
-unsigned __stdcall process(int id);
+unsigned __stdcall process(void* p);
 void move1(int dest, int src, int id);
 void move2(int dest, int src, int id);
 void cal(int dest, int src, int mode, int id);
@@ -48,24 +49,25 @@ void show(int id);
 void checkLock(int pos, int id);
 
 int main() {
-	
+
 	FILE* fp1 = fopen("dict1.dic", "r"), * fp2 = fopen("dict2.dic", "r");
 	ReadToMemory(fp1, CODESTART[0]);
 	ReadToMemory(fp2, CODESTART[1]);
 	fclose(fp1);
 	fclose(fp2);
-	memory[16385].data = 50;
-	freopen("test.txt", "w", stdout);
+	memory[16385].data = 100;
+	int id1 = 0, id2 = 1;
+	void* p1 = &id1, * p2 = &id2;
+
 	IOMutex = CreateMutex(NULL, FALSE, NULL);
-	hThread1 = (HANDLE)_beginthreadex(NULL, 0, process, 0, 0, NULL);
-	hThread2 = (HANDLE)_beginthreadex(NULL, 0, process, 1, 0, NULL);
+	hThread1 = (HANDLE)_beginthreadex(NULL, 0, process, p1, 0, NULL);
+	hThread2 = (HANDLE)_beginthreadex(NULL, 0, process, p2, 0, NULL);
 	WaitForSingleObject(hThread1, INFINITE);
 	CloseHandle(hThread1);
 	WaitForSingleObject(hThread2, INFINITE);
 	CloseHandle(hThread2);
-	freopen("CON", "w", stdout);
-	printf("%s", str);
-	/*printf("\ncodeSegment :\n");
+
+	printf("\ncodeSegment :\n");
 	for (int i = 0; i < 16; i++) {
 		for (int j = 0; j < 8; j++) {
 			if (j) putchar(' ');
@@ -81,7 +83,7 @@ int main() {
 			printf("%hd", (memory[START + i * 32 + j * 2].data << 8) | memory[START + i * 32 + j * 2 + 1].data);
 		}
 		putchar('\n');
-	}*/
+	}
 
 	return 0;
 }
@@ -133,7 +135,7 @@ void cmp(int dest, int src, int id) {		//compare
 
 void show(int id) {		//show you all the information
 	WaitForSingleObject(IOMutex, INFINITE);
-	printf("id = %d\nip = %hd\nflag = %d\nir = %hd\n", id + 1, PC[id], FR[id], IR[id].data);
+	printf("id = %d\nip = %hd\nflag = %d\nir = %hd\n", id + 1, PC[id] + CODESTART[id], FR[id], IR[id].data);
 	printf("ax1 = %hd ax2 = %hd ax3 = %hd ax4 = %hd\n", ax[id][1].data, ax[id][2].data, ax[id][3].data, ax[id][4].data);
 	printf("ax5 = %hd ax6 = %hd ax7 = %hd ax8 = %hd\n", ax[id][5].data, ax[id][6].data, ax[id][7].data, ax[id][8].data);
 	ReleaseMutex(IOMutex);
@@ -155,7 +157,8 @@ void ReadToMemory(FILE* fp, int begin) {	//read data and store in memory
 	}
 }
 
-unsigned __stdcall process(int id) {	//main function, to judge and operate
+unsigned __stdcall process(void* p) {	//main function, to judge and operate
+	int id = *((int*)p);
 	while (1) {
 		IR[id].data = (memory[PC[id]].data << 8) | memory[PC[id] + 1].data;
 		int cmd = IR[id].data >> 8;
@@ -212,18 +215,26 @@ unsigned __stdcall process(int id) {	//main function, to judge and operate
 		else if (cmd == 12) {	//output
 			WaitForSingleObject(IOMutex, INFINITE);
 			printf("id = %d    out: %hd\n", id + 1, ax[id][to].data);
-			sprintf(str + strlen(str), "id = % d    out : % hd\n", id + 1, ax[id][to].data);
-			//freopen("test.txt", "w+", stdout);
 			ReleaseMutex(IOMutex);
 		}
 		else if (cmd == 13) {	//lock
 			short pos = (memory[PC[id] + 2 + CODESTART[id]].data << 8) + memory[PC[id] + 3 + CODESTART[id]].data;
+			while (threadLock[id]) Sleep(10);
 			checkLock(pos, id);
 			id == 0 ? (memLock[1][pos] = 1) : (memLock[0][pos] = 1);
 		}
 		else if (cmd == 14) {	//release
 			short pos = (memory[PC[id] + 2 + CODESTART[id]].data << 8) + memory[PC[id] + 3 + CODESTART[id]].data;
-			id == 0 ? (memLock[1][pos] = 0) : (memLock[0][pos] = 0);
+			if (id == 0) {
+				memLock[1][pos] = 0;
+				threadLock[0] = 1;
+				threadLock[1] = 0;
+			}
+			else {
+				memLock[0][pos] = 0;
+				threadLock[0] = 0;
+				threadLock[1] = 1;
+			}
 		}
 		else if (cmd == 15) {	//sleep
 			short sleepTime = (memory[PC[id] + 2 + CODESTART[id]].data << 8) + memory[PC[id] + 3 + CODESTART[id]].data;
